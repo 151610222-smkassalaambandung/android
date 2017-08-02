@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playing_audio"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gaja"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.menampilkangambar.id.menampilkangambar.playingAudio">
+
+    <TextView android:textSize="59px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Menampilkan musik"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></TextView>
+
+    <ImageButton android:id="@+id/putarMusik"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:src="@drawable/play"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"></ImageButton>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause"
+        android:layout_alignBaseline="@+id/btnSTOP"
+        android:layout_alignBottom="@+id/btnSTOP"
+        android:layout_toRightOf="@+id/putarMusik"
+        android:layout_toEndOf="@+id/putarMusik"
+        android:background="@android:drawable/ic_media_pause" />
+
+    <TextView android:text=""
+        android:id="@+id/ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15px"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/putarMusik"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSTOP"
+        android:layout_marginBottom="35dp"
+        android:layout_alignBottom="@+id/putarMusik"
+        android:layout_toLeftOf="@+id/putarMusik"
+        android:layout_toStartOf="@+id/putarMusik"
+        android:background="@android:drawable/btn_dialog" />
+
+
+</RelativeLayout>

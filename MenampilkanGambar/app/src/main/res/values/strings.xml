@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="perintah">Masukan minimal 3 huruf</string>
+    <string name="hello"> Hello world,belajar </string>
+    <string name="app_name">belajar</string>
+    <string name="toastTextBtn">panggil toast</string>
+    <string name="exitTextBtn">Keluar aplikasi</string>
+    <string name="listDialogTextBtn"> Panggil list dialog</string>
+    <string name="checkBox">checkBox ini : tidak Di Centang</string>
+</resources>
